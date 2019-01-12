@@ -7,13 +7,11 @@ public class MTThreadDemo extends Thread {
 	}
 	
 	public static void main(String[] args) {
-		/*
-		To illustrate the use of Threads
-		thread is lightweight sub-process
-		smallest unit of programming
-		allows concurrent execution of two or more parts or a program
-		facilitates maximum utilization of a CPU
-		*/
+		//To illustrate the use of Threads
+		//thread is lightweight sub-process
+		//smallest unit of programming
+		//allows concurrent execution of two or more parts or a program
+		//facilitates maximum utilization of a CPU
 		int i,n;
 		n=8;
 		for(i=0;i<n;i++) {
