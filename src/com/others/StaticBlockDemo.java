@@ -21,6 +21,7 @@ public class StaticBlockDemo {
 		//either an object is created for the first time
 		//or a static member is accessed for the first time
 		//executed before the constructors
+		// adding an extra line of comment
 		System.out.println(StaticBlockDemo.a);
 		StaticBlockDemo one = new StaticBlockDemo();
 		StaticBlockDemo two = new StaticBlockDemo();
